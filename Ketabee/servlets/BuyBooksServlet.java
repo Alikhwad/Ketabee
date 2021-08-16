@@ -16,7 +16,7 @@ public class BuyBooksServlet extends GenericServlet{
 			//ArrayList<Books> al = new ArrayList<Books>();
 			PreparedStatement ps = con.prepareStatement("Select * from " + IBookConstants.TABLE_BOOK);
 			ResultSet rs = ps.executeQuery();
-			RequestDispatcher rd = req.getRequestDispatcher("ViewBooks.html");
+			RequestDispatcher rd = req.getRequestDispatcher("ViewBooks.jsp");
 			rd.include(req, res);
 			pw.println("<div class=\"tab hd brown \">Books Available In Our Store</div>");
 			pw.println("<div class=\"tab\"><form action=\"buys\" method=\"post\">");
@@ -56,7 +56,7 @@ public class BuyBooksServlet extends GenericServlet{
 			pw.println("</table>\r\n" + "<input type=\"submit\" value=\" PAY NOW \">"+"<br/>"+
 					"	</form>\r\n" + 
 					"	</div>");
-			//pw.println("<div class=\"tab\"><a href=\"AddBook.html\">Add More Books</a></div>");
+			//pw.println("<div class=\"tab\"><a href=\"AddBook.jsp\">Add More Books</a></div>");
 		}
 		catch(Exception e)
 		{

@@ -22,7 +22,7 @@ public class UserLoginServlet extends GenericServlet {
 			ps.setString(2, pWord);
 			ResultSet rs = ps.executeQuery();
 			if (rs.next()) {
-				RequestDispatcher rd = req.getRequestDispatcher("Sample.html");
+				RequestDispatcher rd = req.getRequestDispatcher("Sample.jsp");
 				rd.include(req, res);
 				pw.println("<div class=\"home hd brown\">Welcome ! " + uName + "</div><br/>");
 				pw.println("<div class=\"tab hd brown\">User Login Successful !</div><br/>");
@@ -30,7 +30,7 @@ public class UserLoginServlet extends GenericServlet {
 				pw.println("<div class='tab'><a href=\"buybook\">BUY BOOKS</a></div>");
 			} else {
 
-				RequestDispatcher rd = req.getRequestDispatcher("UserLogin.html");
+				RequestDispatcher rd = req.getRequestDispatcher("UserLogin.jsp");
 				rd.include(req, res);
 				pw.println("<div class=\"tab\">Incorrect UserName or PassWord</div>");
 			}

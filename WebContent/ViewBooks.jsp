@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="ISO-8859-1">
@@ -30,8 +33,8 @@
 	.tab{
 		border:1px black solid;
 		background-color: #FFE5CC;
-		margin-left: 48%;
-		width:450px;
+		margin-left: 45%;
+		max-width:700px;
 		color:green;
 		font-weight: bold;
 		font-style:normal;
@@ -39,6 +42,7 @@
 		font-size: 22px;
 		margin-bottom:10px;
 		padding:10px;
+		padding-top:2px;
 	}
 	.home{
 		border:1px black solid;
@@ -54,6 +58,25 @@
 		padding:10px;
 		float:left;
 		clear:both;
+	}
+	table{
+		border:2px solid black;
+		text-align: center;
+		padding:5px;
+		cellspacing:2px;
+		width:680px;
+	}
+	tr:hover {
+		background-color: #f5f5f5;
+		color:blue;
+	}
+	td{
+		padding:10px;
+		border:1px solid black;
+	}
+	th{
+		color:green;
+		font-size:20px;
 	}
 	.yel{
 	color:yellow;
@@ -79,11 +102,11 @@
 		<h1>Welcome to Ketabee</h1>
 	</div>
 	<div class="home">
-		<a href="">Home</a>
+		<a href="index.jsp">Home</a>
 	</div>
 
 	<div class="home">
-		<a href="index.html">Login</a>
+		<a href="index.jsp">Login</a>
 	</div>
 	
 	<div class="home">
@@ -91,29 +114,12 @@
 	</div>
 
 	<div class="home">
-		<a href="index.html">Logout</a>
+		<a href="index.jsp">Logout</a>
 	</div>
-	
-	<table class="tab hd brown">
-		<tr>
-			<td>USER LOGIN</td>
-		</tr>
-	</table>
 
-	<table class="tab" border="0px" cellpadding="10" cellspacing="10">
-		
-		<tr>
-			<td>
-				<form action="userlog" method="post">
-					Username: <input type="text" name="username"><br/><br/>
-					Password: <input type="password" name="password"><br/><br/>
-					<input type="submit" value=" LOGIN AS USER ">
-				</form>
-			</td>
-			
-		</tr>  
-	</table>
+<!--Content ends-->
+<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
+	<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	
-
 </body>
 </html>

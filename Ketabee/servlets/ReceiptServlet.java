@@ -16,7 +16,7 @@ public class ReceiptServlet extends GenericServlet {
 			PreparedStatement ps = con.prepareStatement("select * from " + IBookConstants.TABLE_BOOK);
 			ResultSet rs = ps.executeQuery();
 			int i = 0;
-			RequestDispatcher rd = req.getRequestDispatcher("ViewBooks.html");
+			RequestDispatcher rd = req.getRequestDispatcher("ViewBooks.jsp");
 			rd.include(req, res);
 			pw.println("<div class=\"tab\">You Successfully Paid for Following Books</div>");
 			pw.println(

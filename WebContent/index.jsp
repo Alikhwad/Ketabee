@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="ISO-8859-1">
@@ -80,11 +83,11 @@
 	</div>
 	
 	<div class="home">
-		<a href="index.html">Home</a>
+		<a href="index.jsp">Home</a>
 	</div>
 
 	<div class="home">
-		<a href="index.html">Login</a>
+		<a href="index.jsp">Login</a>
 	</div>
 	
 	<div class="home">
@@ -92,7 +95,7 @@
 	</div>
 
 	<div class="home">
-		<a href="index.html">Logout</a>
+		<a href="index.jsp">Logout</a>
 	</div>
 	
 	<table class="tab brown hd" bgcolor="black">
@@ -104,20 +107,24 @@
 	<table class="tab" border="0px solid black">
 		
 		<tr>
-			<td><a href="AdminLogin.html">Login As Admin</a></td>
+			<td><a href="AdminLogin.jsp">Login As Admin</a></td>
 		</tr>
 	</table>
 	<table class="tab" border="0px solid black">
 		
 		<tr>
-			<td><a href="UserLogin.html"> Login As<span> User</span> </a></td>
+			<td><a href="UserLogin.jsp"> Login As<span> User</span> </a></td>
 		</tr>
 	</table>
 	<table class="tab green">
 		<tr>
-			<td><a href="UserRegister.html">New user ! Register Here</a></td>
+			<td><a href="UserRegister.jsp">New user ! Register Here</a></td>
 		</tr>
 	</table>
+
+<!--Content ends-->
+<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
+	<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 </body>
 </html>

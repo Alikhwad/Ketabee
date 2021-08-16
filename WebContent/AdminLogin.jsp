@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="ISO-8859-1">
@@ -78,12 +81,13 @@
 	<div id="topmid">
 		<h1>Welcome to Ketabee</h1>
 	</div>
+	
 	<div class="home">
-		<a href="">Home</a>
+		<a href="index.jsp">Home</a>
 	</div>
 
 	<div class="home">
-		<a href="index.html">Login</a>
+		<a href="index.jsp">Login</a>
 	</div>
 	
 	<div class="home">
@@ -91,8 +95,32 @@
 	</div>
 
 	<div class="home">
-		<a href="index.html">Logout</a>
+		<a href="index.jsp">Logout</a>
 	</div>
 	
+	<table class="tab brown hd">
+		<tr>
+			<td>ADMIN LOGIN</td>
+		</tr>
+	</table>
+
+	<table class="tab" border="0px" >
+		
+		<tr>
+			<td>
+				<form action="adminlog" method="post">
+					Username: <input type="text" name="username"><br/><br/>
+					Password: <input type="password" name="password"><br/><br/>
+					<input type="submit" value=" LOGIN AS ADMIN " text-align="center">
+				</form>
+			</td>
+			
+		</tr>  
+	</table>
+	</div>
+<!--Content ends-->
+<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
+	<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 </body>
 </html>

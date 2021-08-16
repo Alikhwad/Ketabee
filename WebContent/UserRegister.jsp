@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="ISO-8859-1">
@@ -70,6 +73,9 @@
 	.brown{
 		color:brown;
 	}
+	.blue{
+		color:blue;
+	}
 	</style>
 </head>
 <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"
@@ -79,27 +85,50 @@
 		<h1>Welcome to Ketabee</h1>
 	</div>
 	<div class="home">
-		<a href="adminlog">Home</a>
+		<a href="userlog">Home</a>
 	</div>
 
 	<div class="home">
-		<a href="index.html">Login</a>
+		<a href="index.jsp">Login</a>
 	</div>
 	
 	<div class="home">
-		<a href="viewbook">Books Available</a>
+		<a href="ViewBooks.jsp">Books Available</a>
 	</div>
 
 	<div class="home">
-		<a href="index.html">Logout</a>
+		<a href="index.jsp">Logout</a>
 	</div>
 	
-	<div class="tab">
-	<form action="remove" method="post">
-		Book Code: <input type="text" name="barcode">
-			<input type="submit" value="Remove Book">
-	</form>
-	</div>
+	<table class="tab brown hd">
+		<tr>
+			<td>Register Here</td>
+		</tr>
+	</table>
+
+	<table class="tab" border="0px">
+		
+		<tr>
+			<td>
+				<form action="userreg" method="post">
+					Username : <input type="text" name="username"><br/><br/>
+					Password : <input type="password" name="password"><br/><br/>
+					FirstName: <input type="text" name="firstname"><br/><br/>
+					Last Name: <input type="text" name="lastname"><br/><br/>
+					Address : <input type="text" name="address"><br/><br/>
+					Phone No : <input type="text" name="phone"><br/><br/>
+					Email Id : <input type="text" name="mailid"><br/><br/>
+					<input type="submit" value=" I AGREE FOR ALL TERMS & CONDITIONS ! REGISTER ME ">
+				</form>
+			</td>
+			
+		</tr>  
+	</table>
 	
+
+<!--Content ends-->
+<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
+	<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 </body>
 </html>

@@ -1,8 +1,8 @@
 package servlets;
 
 import javax.servlet.*;
+
 import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpSession;
 
 import constants.KetabeeConstants;
 import sql.IUserContants;
@@ -25,18 +25,18 @@ public class AdminLoginServlet extends GenericServlet {
 			ps.setString(2, pWord);
 			ResultSet rs = ps.executeQuery();
 			if (rs.next()) {
-				RequestDispatcher rd = req.getRequestDispatcher("Sample.html");
+				RequestDispatcher rd = req.getRequestDispatcher("Sample.jsp");
 				
 				Cookie ck = new Cookie("usertype","admin");
 				
 				rd.include(req, res);
 				pw.println("<div class=\"tab\">Admin login Successful</div>");
-				pw.println("<div class=\"tab\"><br/><a href=\"AddBook.html\">ADD BOOKS</a><br/></div>");
-				pw.println("<div class=\"tab\"><br/><a href=\"RemoveBooks.html\">REMOVE BOOKS</a><br/></div>");
+				pw.println("<div class=\"tab\"><br/><a href=\"AddBook.jsp\">ADD BOOKS</a><br/></div>");
+				pw.println("<div class=\"tab\"><br/><a href=\"RemoveBooks.jsp\">REMOVE BOOKS</a><br/></div>");
 				pw.println("<div class=\"tab\"><br/><a href=\"viewbook\">VIEW BOOKS</a></div>");
 			} else {
 
-				RequestDispatcher rd = req.getRequestDispatcher("AdminLogin.html");
+				RequestDispatcher rd = req.getRequestDispatcher("AdminLogin.jsp");
 				rd.include(req, res);
 				pw.println("<div class=\"tab\">Incorrect UserName or PassWord</div>");
 			}

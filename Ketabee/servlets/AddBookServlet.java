@@ -37,13 +37,13 @@ public class AddBookServlet extends GenericServlet{
 			int k = ps.executeUpdate();
 			if(k==1)
 			{
-				RequestDispatcher rd = req.getRequestDispatcher("AddBook.html");
+				RequestDispatcher rd = req.getRequestDispatcher("AddBook.jsp");
 				rd.include(req, res);
 				pw.println("<div class=\"tab\">Book Detail Updated Successfully!<br/>Add More Books</div>");
 			}
 			else
 			{
-				RequestDispatcher rd = req.getRequestDispatcher("AddBook.html");
+				RequestDispatcher rd = req.getRequestDispatcher("AddBook.jsp");
 				pw.println("<div class=\"tab\">Failed to Add Books! Fill up CareFully</div>");
 				rd.include(req, res);
 			}

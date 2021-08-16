@@ -34,7 +34,7 @@ public class UserRegisterServlet extends GenericServlet {
 			//ps.setInt(8, 2);
 			int k = ps.executeUpdate();
 			if (k == 1) {
-				RequestDispatcher rd = req.getRequestDispatcher("Sample.html");
+				RequestDispatcher rd = req.getRequestDispatcher("Sample.jsp");
 				rd.include(req, res);
 				pw.println("<h3 class='tab'>User Registered Successfully</h3>");
 			} else {
