@@ -11,7 +11,7 @@
 	margin: 0 0 10px 0;
 	border: 1px black solid;
 	background: #34495e;
-	color: #fff;
+	color: #9099b7;
 	border-radius: 0.4em;
 	overflow: hidden;
 	text-align: center;
