@@ -18,8 +18,8 @@ public class BuyBooksServlet extends GenericServlet{
 			ResultSet rs = ps.executeQuery();
 			RequestDispatcher rd = req.getRequestDispatcher("ViewBooks.jsp");
 			rd.include(req, res);
-			pw.println("<div class=\"tab hd brown \">Books Available In Our Store</div>");
-			pw.println("<div class=\"tab\"><form action=\"buys\" method=\"post\">");
+			pw.println("<div class=\"tab\">Books Available In Our Store</div>");
+			pw.println("<div class=\"table\"><form action=\"buys\" method=\"post\">");
 			pw.println("<table>\r\n" + 
 					"			<tr>\r\n" + 
 					"				<th>Books</th>\r\n" + 

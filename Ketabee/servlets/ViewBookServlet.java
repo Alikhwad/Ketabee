@@ -18,7 +18,7 @@ public class ViewBookServlet extends GenericServlet{
 			RequestDispatcher rd = req.getRequestDispatcher("ViewBooks.jsp");
 			rd.include(req, res);
 			pw.println("<div class=\"tab\">Books Available In Our Store</div>");
-			pw.println("<div class=\"tab\">\r\n" + 
+			pw.println("<div class=\"table\">\r\n" + 
 					"		<table>\r\n" + 
 					"			<tr>\r\n" + 
 					"				\r\n" + 
@@ -43,7 +43,7 @@ public class ViewBookServlet extends GenericServlet{
 			}
 			pw.println("</table>\r\n" + 
 					"	</div>");
-			//pw.println("<div class=\"tab\"><a href=\"AddBook.jsp\">Add More Books</a></div>");
+			pw.println("<div class=\"tab\"><a href=\"AddBook.jsp\">Add More Books</a></div>");
 		}
 		catch(Exception e)
 		{
