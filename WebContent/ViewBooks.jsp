@@ -322,7 +322,7 @@ table {
 th, td {
 	padding: 15px;
 	background-color: rgba(255, 255, 255, 0.2);
-	color: #fff;
+	color: #000;
 }
 
 th {
@@ -348,6 +348,8 @@ td {
 }
 }
 }
+textarea { background-color : #d1d1d1; }
+
 </style>
 </head>
 <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"

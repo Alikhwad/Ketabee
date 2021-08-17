@@ -50,7 +50,7 @@ public class BuyBooksServlet extends GenericServlet{
 				pw.println("<td>"+bAuthor+"</td>");
 				pw.println("<td>"+bPrice+"</td>");
 				pw.println("<td>"+bAvl+"</td>");
-				pw.println("<td><input type=\"text\" name="+q+" value=\"0\" text-align=\"center\"></td></tr>");
+				pw.println("<td><input type=\"number\" name="+q+" value=\"0\" text-align=\"center\" class=\"textarea\"></td></tr>");
 				
 			}
 			pw.println("</table>\r\n" + "<input type=\"submit\" value=\" PAY NOW \">"+"<br/>"+
