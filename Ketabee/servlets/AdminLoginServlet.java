@@ -31,9 +31,9 @@ public class AdminLoginServlet extends GenericServlet {
 				
 				rd.include(req, res);
 				pw.println("<div class=\"home hd brown\">Welcome ! " + uName + "</div><br/>");
-				pw.println("<div class=\"tab\"><br/><a href=\"AddBook.jsp\">ADD BOOKS</a><br/></div>");
-				pw.println("<div class=\"tab\"><br/><a href=\"RemoveBooks.jsp\">REMOVE BOOKS</a><br/></div>");
-				pw.println("<div class=\"tab\"><br/><a href=\"viewbook\">VIEW BOOKS</a></div>");
+				pw.println("<div class=\"tab\"><a href=\"AddBook.jsp\">ADD BOOKS</a><br/></div>");
+				pw.println("<div class=\"tab\"><a href=\"RemoveBooks.jsp\">REMOVE BOOKS</a></div>");
+				pw.println("<div class=\"tab\"><a href=\"viewbook\">VIEW BOOKS</a></div>");
 			} else {
 
 				RequestDispatcher rd = req.getRequestDispatcher("AdminLogin.jsp");
