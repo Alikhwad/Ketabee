@@ -35,10 +35,7 @@
 		</tr>
 	</table>
 
-	<table class="tab" border="0px">
-
-		<tr>
-			<td>
+<div class="tab">
 				<form action="userreg" method="post">
 					Username : <input type="text" name="username"><br />
 					<br /> Password : <input type="password" name="password"><br />
@@ -50,10 +47,7 @@
 					<br /> <input type="submit"
 						value=" I AGREE FOR ALL TERMS & CONDITIONS ! REGISTER ME ">
 				</form>
-			</td>
-
-		</tr>
-	</table>
+</div>
 
 
 	<!--Content ends-->

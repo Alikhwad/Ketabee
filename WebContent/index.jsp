@@ -39,7 +39,4 @@
 	<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 </body>
-<div class="footer">
-  <p>Welcome to Ketabee</p>
-</div>
 </html>
