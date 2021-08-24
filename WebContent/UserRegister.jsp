@@ -47,7 +47,7 @@
 					<br /> Address : <input type="text" name="address"><br />
 					<br /> Phone No : <input type="text" name="phone"><br />
 					<br /> Email Id : <input type="text" name="mailid"><br />
-					<br /> <input type="submit"
+					<br /> <input type="submit" color="black"
 						value=" I AGREE FOR ALL TERMS & CONDITIONS ! REGISTER ME ">
 				</form>
 			</td>
