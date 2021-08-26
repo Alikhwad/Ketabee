@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="stylesheet.css">
 </head>
 <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"
-	rel="stylesheet">	
+	rel="stylesheet">
 <body class="main-container">
 
 	<div>
@@ -31,15 +31,21 @@
 	</div>
 
 	<div class="tab">Login or Signup Below</div>
-	<div class="tab"><a href="AdminLogin.jsp">Login As Admin</a></div>
-	<div class="tab"><a href="UserLogin.jsp"> Login As User</a></div>
-	<div class="tab"><a href="UserRegister.jsp">New user ! Register Here</a></div>
+	<div class="tab">
+		<a href="AdminLogin.jsp">Login As Admin</a>
+	</div>
+	<div class="tab">
+		<a href="UserLogin.jsp"> Login As User</a>
+	</div>
+	<div class="tab">
+		<a href="UserRegister.jsp">New user ! Register Here</a>
+	</div>
 	<!--Content ends-->
 	<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
 	<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 </body>
 <div class="footer">
-  <p>Welcome to Ketabee</p>
+	<p>Welcome to Ketabee</p>
 </div>
 </html>

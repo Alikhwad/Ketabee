@@ -40,12 +40,13 @@
 		<tr>
 			<td>
 				<form action="addbook" method="post">
-					Book Code : <input type="text" name="barcode"><br />
-					<br /> Book Name : <input type="text" name="name"><br />
-					<br /> BookAuthor: <input type="text" name="author"><br />
-					<br /> Book Price: <input type="text" name="price"><br />
-					<br /> Book Qnty : <input type="text" name="quantity"><br />
-					<br /> <input type="submit" value=" Add These Books ">
+					Book Code : <input type="text" name="barcode"><br /> <br />
+					Book Name : <input type="text" name="name"><br /> <br />
+					BookAuthor: <input type="text" name="author"><br /> <br />
+					Book Price: <input type="text" name="price"><br /> <br />
+					Book Qnty : <input type="text" name="quantity"><br /> <br />
+					<button type="submit" class="btn btn-primary">Add This
+						Book</button>
 				</form>
 			</td>
 		</tr>
@@ -64,6 +65,6 @@
 
 </body>
 <div class="footer">
-  <p>Welcome to Ketabee</p>
+	<p>Welcome to Ketabee</p>
 </div>
 </html>

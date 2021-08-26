@@ -41,9 +41,10 @@
 		<tr>
 			<td>
 				<form action="userlog" method="post">
-					Username: <input type="text" name="username"><br />
-					<br /> Password: <input type="password" name="password"><br />
-					<br /> <input type="submit" value=" LOGIN AS USER ">
+					Username: <input type="text" name="username"><br /> <br />
+					Password: <input type="password" name="password"><br /> <br />
+					<button type="submit" class="btn btn-primary">LOGIN AS
+						USER</button>
 				</form>
 			</td>
 
@@ -57,6 +58,6 @@
 
 </body>
 <div class="footer">
-  <p>Welcome to Ketabee</p>
+	<p>Welcome to Ketabee</p>
 </div>
 </html>

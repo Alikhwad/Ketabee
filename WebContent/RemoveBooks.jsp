@@ -32,8 +32,8 @@
 
 	<div class="tab">
 		<form action="remove" method="post">
-			Book Code: <input type="text" name="barcode"> <input
-				type="submit" value="Remove Book">
+			Book Code: <input type="text" name="barcode"><br>
+			<button type="submit" class="btn btn-primary">Remove Book</button>
 		</form>
 	</div>
 
@@ -43,6 +43,6 @@
 
 </body>
 <div class="footer">
-  <p>Welcome to Ketabee</p>
+	<p>Welcome to Ketabee</p>
 </div>
 </html>

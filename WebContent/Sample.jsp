@@ -24,7 +24,7 @@
 				<li><a class="header-menu-tab" href="viewbook"><span
 						class="icon fontawesome-envelope scnd-font-color"></span>Books
 						Available</a></li>
-				<li><a class="header-menu-tab" href="index.jsp" ><span
+				<li><a class="header-menu-tab" href="index.jsp"><span
 						class="icon fontawesome-star-empty scnd-font-color"></span>Logout</a>
 				</li>
 			</ul>
@@ -38,6 +38,6 @@
 
 </body>
 <div class="footer">
-  <p>Welcome to Ketabee</p>
+	<p>Welcome to Ketabee</p>
 </div>
 </html>

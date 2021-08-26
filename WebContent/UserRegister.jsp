@@ -34,20 +34,19 @@
 			<td>Register Here</td>
 		</tr>
 	</table>
-
-<div class="tab">
-				<form action="userreg" method="post">
-					Username : <input type="text" name="username"><br />
-					<br /> Password : <input type="password" name="password"><br />
-					<br /> FirstName: <input type="text" name="firstname"><br />
-					<br /> Last Name: <input type="text" name="lastname"><br />
-					<br /> Address : <input type="text" name="address"><br />
-					<br /> Phone No : <input type="text" name="phone"><br />
-					<br /> Email Id : <input type="text" name="mailid"><br />
-					<br /> <input type="submit" color="black"
-						value=" I AGREE FOR ALL TERMS & CONDITIONS ! REGISTER ME ">
-				</form>
-</div>
+	<div class="tab">
+		<form action="userreg" method="post">
+			Username : <input type="text" name="username"><br /> <br />
+			Password : <input type="password" name="password"><br /> <br />
+			FirstName: <input type="text" name="firstname"><br /> <br />
+			Last Name: <input type="text" name="lastname"><br /> <br />
+			Address : <input type="text" name="address"><br /> <br />
+			Phone No : <input type="text" name="phone"><br /> <br />
+			Email Id : <input type="text" name="mailid"><br /> <br />
+			<button type="submit" class="btn btn-primary">I AGREE FOR
+				ALL TERMS & CONDITIONS ! REGISTER ME</button>
+		</form>
+	</div>
 
 
 	<!--Content ends-->
@@ -56,6 +55,6 @@
 
 </body>
 <div class="footer">
-  <p>Welcome to Ketabee</p>
+	<p>Welcome to Ketabee</p>
 </div>
 </html>
